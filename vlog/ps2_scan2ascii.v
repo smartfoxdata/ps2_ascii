@@ -24,7 +24,7 @@
 //
 ////////////////////////////////////////////////////////////////////////////////
 
-module ps2_to_scan2ascii(clk, ps2_code_new, ps2_code, ascii_code_new, ascii_code);
+module ps2_scan2ascii(clk, ps2_code_new, ps2_code, ascii_code_new, ascii_code);
 
   input clk;
   input ps2_code_new;
